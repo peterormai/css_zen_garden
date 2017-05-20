@@ -1,8 +1,4 @@
-/*h1, h2, #zen-preamble?*/
-/*top,left*/
-/*position*/
-
-html {
+html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -10,10 +6,6 @@ html {
     }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
     font-family: "Times New Roman";
     color: white;
     background: url(pictures/curtain.jpg) top repeat-x, url(https://codecool.hu/wp-content/themes/codecool_v2_hu/assets/images/header_visual.svg) bottom repeat-x fixed;
@@ -28,22 +20,50 @@ body {
     opacity: 0.95;
     }
 
-header {
+header, h1, h2 {
     color: black;
+}
+
+header {
     background-image: url(https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg);
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     border: double;
-    text-shadow: 5px 5px #a3a4b6;
     text-align: center;
     }
 
-a:link {
-	color: blue;
-	text-decoration: underline;
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    position: initial;
+    left: 508px;
+    top: 65px;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-align: center; 
+    text-decoration: underline;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+#zen-preamble {
     font-weight: bold;
-	}
+    margin: 0px 40px 0px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#zen-preamble h3 {
+    margin-left: 120px;
+}
 
 p {
     line-height: 95%;
@@ -56,7 +76,7 @@ h3 {
     border-radius: 30px;
     background-color: 	black;
     border-width: 10;
-    width: 200px;
+    width: 150px;
     padding: 5px;
     margin-left: 200px;
 }
@@ -88,7 +108,6 @@ footer {
     padding: 5px;
     font-style: italic;
     font-weight: bold;
-    
 }
 
 #zen-intro p {
