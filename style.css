@@ -38,9 +38,10 @@ h1 {
 }
 
 h2 {
-    position: initial;
-    left: 508px;
-    top: 65px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 10%;
 }
 
 a:link, a:visited {
@@ -143,11 +144,21 @@ abbr {
     border-width: 0.5px;
     border-radius: 20px;
     opacity: 0.8;
-    margin: 37px;
+    margin: 28px;
 }
 
 #zen-resources {
     text-align: center;
+}
+
+#zen-resources h3 {
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    background: darkslategray;;
 }
 
 #zen-resources li {
