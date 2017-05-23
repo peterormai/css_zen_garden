@@ -158,7 +158,9 @@ abbr {
     padding: 0px;
     padding-left: 0px;
     padding-right: 10px;
-    background: darkslategray;;
+    background: darkslategray;
+    color: black;
+    margin: 0px
 }
 
 #zen-resources li {
